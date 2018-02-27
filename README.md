@@ -2,11 +2,16 @@
 HTTP API for rendering webpage screenshots to png
 
 ## How to run
-```npm i; npm start```
+```bash
+# With docker
+docker run --restart always -p 3101:3101 -d solohin/phantom-render-service
 
-or
-
-```docker run --restart always -p 3101:3101 -d solohin/phantom-render-service```
+# Without docker
+git clone https://github.com/solohin/phantom-render-service;
+cd phantom-render-service;
+npm i;
+npm start;
+```
 
 ## API
 [GET, JSON POST or urlencoded POST] **/screenshot**
