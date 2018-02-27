@@ -1,5 +1,5 @@
 # phantom-render-service
-Renders webpage screenshots to png.
+HTTP API for rendering webpage screenshots to png
 
 ## How to run
 ```npm i; npm start```
