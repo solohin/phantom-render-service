@@ -1,0 +1,32 @@
+{
+  "name": "phantom-render-service",
+  "version": "1.0.0",
+  "description": "Renders webpage screenshots to png",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solohin/phantom-render-service.git"
+  },
+  "keywords": [
+    "docker",
+    "phantom",
+    "screenshot"
+  ],
+  "author": "Ilya Solokhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solohin/phantom-render-service/issues"
+  },
+  "homepage": "https://github.com/solohin/phantom-render-service#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-queue": "0.0.11",
+    "phantom-render-stream": "^2.2.0",
+    "valid-url": "^1.0.9"
+  }
+}
