@@ -7,7 +7,7 @@ or
 ```docker-compose up --build -d```
 
 ## API
-[GET, JSON POST or urlencoded POST] /screenshot
+[GET, JSON POST or urlencoded POST] **/screenshot**
 
 - width - with of the final image
 - height - with of the final image
