@@ -8,9 +8,10 @@ or
 
 ## API
 [GET, JSON POST or urlencoded POST] /screenshot
-width - with of the final image
-height - with of the final image
-url - url of webpage
+
+- width - with of the final image
+- height - with of the final image
+- url - url of webpage
 
 You can use any other options from https://github.com/sorribas/phantom-render-stream
 
